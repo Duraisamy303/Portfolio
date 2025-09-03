@@ -1,0 +1,241 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Duraisamy!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Duraisamy!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Duraisamy !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{최민석}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+            "label": "Coimbatore - CB",
+
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "psmkduraisamy@gmail.com",
+                    "link": {"href": "mailto:psmkduraisamy@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Duraisamy",
+                    "link": {"href": "https://github.com/Duraisamy303", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{React and React Native developer}} with [[4 years of experience]], specializing in building modern, cross-platform mobile applications and dynamic user interfaces. While my core expertise is in frontend and mobile development, I also have a solid understanding of backend principles, allowing me to effectively contribute to full-stack projects when needed.</p><p>My experience enables me to quickly adapt to new project requirements, whether it's developing performant single-page applications (SPAs), creating reusable component libraries, or building and deploying robust mobile apps for both iOS and Android from a single codebase.</p><p>I look forward to collaborating [[with you]]!</p>"
+                        }
+                        
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"}
+             
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Deepthi Muthusamy",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[Prade Jewels]]",
+                            "text": "We partnered with {{Repute Digital Business Agency}} for the development of our e-commerce platform, {{Prade Jewells}}. Their expertise was crucial in building a seamless, secure, and visually appealing online jewelry store."
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Ashok Viswanathan",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[Fufilly]]",
+                            "text": "Working with {{Brown Button}} was an exceptional experience. They developed a robust and scalable delivery partner application for {{Fufilly}} that has significantly streamlined our operations. The platform is reliable, user-friendly, and has greatly improved our efficiency in managing deliveries. Their technical expertise and commitment to delivering high-quality results were evident throughout the project. We highly recommend their services."
+                        }
+                       
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Naveen Gopalakrishnan",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[MyBuddy]]",
+                            "text": "{{Duraisamy}} was instrumental in bringing the vision of MyBuddy to life. They developed a highly engaging and intuitive community app that has successfully connected our users in meaningful ways. The platform is both feature-rich and easy to use, which has greatly contributed to fostering a strong sense of community among our members."
+                        }
+                       
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Raj Mythili",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Covai Civil Lab]]",
+                            "text": "We engaged {{Repute}} to develop a tailored digital solution for our laboratory, and the results have been exceptional. The platform seamlessly manages our extensive suite of services—from material and soil testing to structural certifications—all while ensuring full compliance with Indian Standards (IS). The system has greatly improved our operational efficiency, data accuracy, and client reporting capabilities"
+                        }
+                       
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Open-Source Projects",
+                            "text": "Contributing to React/React Native libraries and experimenting with emerging tools to stay updated with industry trends and best practices."
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "UI/UX Design & Accessibility",
+                            "text": "Passionate about creating intuitive, visually appealing, and accessible user interfaces that enhance usability for diverse audiences."
+                        }
+                       
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Performance Optimization",
+                            "text": "Exploring advanced techniques to optimize rendering, memory management, and load times in mobile and web applications."
+                        }
+                       
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Building Developer Tools",
+                            "text": "Creating custom ESLint plugins, CLI tools, and React hooks to automate repetitive tasks and improve team productivity and code quality."
+                        }
+                       
+                    }
+                }
+            ]
+        }
+    ]
+}
