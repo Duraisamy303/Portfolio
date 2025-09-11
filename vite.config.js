@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Portfolio/', // This should match your repository name
+  base: '/', // Changed from './' to '/' for Vercel
   plugins: [react()],
   build: {
     outDir: 'dist',
