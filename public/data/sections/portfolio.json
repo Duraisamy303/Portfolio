@@ -6,24 +6,6 @@
                 "title_short_nav": "Portfolio",
                 "title_long_prefix": "Take a look at",
                 "title_long": "My {{Portfolio}}"
-            },
-            "es": {
-                "title_short": "Portafolio",
-                "title_short_nav": "Portafolio",
-                "title_long_prefix": "Explora",
-                "title_long": "Mi {{Portafolio}}"
-            },
-            "fr": {
-                "title_short": "Portfolio",
-                "title_short_nav": "Portfolio",
-                "title_long_prefix": "Découvrez",
-                "title_long": "Mon {{Portfolio}}"
-            },
-            "ko": {
-                "title_short": "포트폴리오",
-                "title_short_nav": "포트폴리오",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{포트폴리오}}입니다"
             }
         }
     },
@@ -37,37 +19,22 @@
                     "category_all": "All",
                     "category_apps": "Apps",
                     "category_web": "Web",
-                    "category_utilities": "Utilities"
-                },
-                "es": {
-                    "category_all": "Todo",
-                    "category_apps": "Apps",
-                    "category_web": "Web",
-                    "category_utilities": "Utilidades"
-                },
-                "fr": {
-                    "category_all": "Tout",
-                    "category_apps": "Apps",
-                    "category_web": "Web",
-                    "category_utilities": "Utilitaires"
-                },
-                "ko": {
-                    "category_all": "모두",
-                    "category_apps": "앱",
-                    "category_web": "웹",
-                    "category_utilities": "유틸리티"
+                    "category_utilities": "Ecommerce",
+                    "category_admin": "Admin Panel"
+
                 }
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "categorize_by": ["category_apps", "category_web", "category_utilities","category_admin"],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
             "items": [
+                
                 {
                     "id": 1,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/livyana.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -76,39 +43,27 @@
                             {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            "images/pictures/livyana/1.webp",
+                            "images/pictures/livyana/2.webp",
+                            "images/pictures/livyana/3.webp",
+                            "images/pictures/livyana/4.webp",
+                            "images/pictures/livyana/5.webp"
                         ],
-                        "screenshotsAspectRatio": "16:9",
+                        "screenshotsAspectRatio": "0",
                         "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
                     },
                     "locales": {
                         "en": {
-                            "title": "BrainPulse",
+                            "title": "Livyana",
                             "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
+                            "tags": ["React Native", "REST", "Node Js"]
                         }
                     }
                 },
                 {
                     "id": 2,
                     "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "img": "images/pictures/fullfily.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -117,40 +72,27 @@
                             {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
+                            "images/pictures/fullfilly/1.webp",
+                            "images/pictures/fullfilly/2.webp",
+                            "images/pictures/fullfilly/3.webp",
+                            "images/pictures/fullfilly/4.webp",
+                            "images/pictures/fullfilly/5.webp"
                         ],
                         "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
                     },
                     "locales": {
                         "en": {
-                            "title": "MailM8",
+                            "title": "Fullfily",
                             "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
                             "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
                         }
                     }
                 },
                 {
                     "id": 3,
                     "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "img": "images/pictures/hdd.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -159,18 +101,47 @@
                             {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            "images/pictures/hdd/1.webp",
+                            "images/pictures/hdd/2.webp",
+                            "images/pictures/hdd/3.webp",
+                            "images/pictures/hdd/4.webp",
+                            "images/pictures/hdd/5.webp"
                         ],
                         "screenshotsAspectRatio": "16:9",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Light Blue",
+                            "title": "HDD manager",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["React", "Organization", "Notes"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/pleat.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/pleat/1.webp",
+                            "images/pictures/pleat/2.webp",
+                            "images/pictures/pleat/3.webp",
+                            "images/pictures/pleat/4.webp",
+                            "images/pictures/pleat/5.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pleat",
                             "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
                             "tags": ["React", "Organization", "Notes"]
                         },
@@ -189,9 +160,137 @@
                     }
                 },
                 {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/mybuddy.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/mybuddy/1.png",
+                            "images/pictures/mybuddy/2.jpg",
+                            "images/pictures/mybuddy/3.jpg",
+                            "images/pictures/mybuddy/4.jpg",
+                            "images/pictures/mybuddy/5.jpg",
+                            "images/pictures/mybuddy/6.jpg",
+                            "images/pictures/mybuddy/7.jpg",
+                            "images/pictures/mybuddy/8.jpg",
+                            "images/pictures/mybuddy/9.jpg",
+                            "images/pictures/mybuddy/10.jpg",
+                            "images/pictures/mybuddy/11.jpg",
+                            "images/pictures/mybuddy/12.jpg",
+                            "images/pictures/mybuddy/13.jpg",
+                            "images/pictures/mybuddy/14.jpg"
+
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MyBuddy",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["React", "Organization", "Notes"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/kitmobile.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png",
+                            "images/pictures/screenshot-demo-landscape-3.png",
+                            "images/pictures/screenshot-demo-landscape-4.png",
+                            "images/pictures/screenshot-demo-landscape-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Job Board",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["React", "Organization", "Notes"]
+                        },
+                        "es": {
+                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
+                            "tags": ["React", "Organización", "Notas"]
+                        },
+                        "fr": {
+                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
+                            "tags": ["React", "Organisation", "Notes"]
+                        },
+                        "ko": {
+                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
+                            "tags": ["React", "조직", "메모"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/padane.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/padane/1.jpeg",
+                            "images/pictures/padane/2.jpeg",
+                            "images/pictures/padane/3.jpeg",
+                            "images/pictures/padane/4.jpeg",
+                            "images/pictures/padane/5.jpeg",
+                            "images/pictures/padane/6.jpeg",
+                            "images/pictures/padane/7.jpeg",
+                            "images/pictures/padane/8.jpeg",
+                            "images/pictures/padane/9.jpeg"
+
+                        ],
+                        "screenshotsAspectRatio": "20",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Padane",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["React", "Organization", "Notes"]
+                        },
+                        "es": {
+                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
+                            "tags": ["React", "Organización", "Notas"]
+                        },
+                        "fr": {
+                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
+                            "tags": ["React", "Organisation", "Notes"]
+                        },
+                        "ko": {
+                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
+                            "tags": ["React", "조직", "메모"]
+                        }
+                    }
+                },
+
+
+                {
                     "id": 4,
                     "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "img": "images/pictures/tirumalai.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -206,31 +305,66 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "SmartCash",
+                            "title": "Tirumalai",
                             "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
                             "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
                         }
                     }
                 },
                 {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/bks.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BKS",
+                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
+                            "tags": ["Next.js", "Finance", "Money"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/stj.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sree Thangam Jewellery",
+                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
+                            "tags": ["Next.js", "Finance", "Money"]
+                        }
+                    }
+                },
+
+                {
                     "id": 5,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "categoryId": "category_web",
+                    "img": "images/pictures/zenwell.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -246,36 +380,25 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Snappy",
+                            "title": "Zen Wellness Lounge",
                             "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
                             "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
                         }
                     }
                 },
+                
                 {
-                    "id": 6,
+                    "id": 9,
                     "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-5.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "images/pictures/kpr.png",
+
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
+                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
                         ],
                         "screenshots": [
 
@@ -285,31 +408,87 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
+                            "title": "kpr mill",
+                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
+                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
                         }
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 9,
                     "categoryId": "category_web",
-                    "img": "",
+                    "img": "images/pictures/karpagam.png",
+
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
+                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "KIT",
+                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
+                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/Gyanodhayam.png",
+
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
+                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Gyanodhayam",
+                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
+                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                        },
+                        "es": {
+                            "title": "QuickDrop",
+                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+                            "tags": ["React Native", "Entrega", "Seguimiento"]
+                        },
+                        "fr": {
+                            "title": "QuickDrop",
+                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+                            "tags": ["React Native", "Livraison", "Suivi"]
+                        },
+                        "ko": {
+                            "title": "QuickDrop",
+                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+                            "tags": ["React Native", "배송", "실시간 추적"]
+                        }
+                    }
+                },
+               
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/prade.png",
+
                     "faIcon": "fa-solid fa-guitar",
                     "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
                     "preview": {
@@ -324,31 +503,69 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "RockVerse",
+                            "title": "Prade",
                             "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
                             "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+                
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/stj.png",
+
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sree Thangam Jewellery",
+                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
+                            "tags": ["Django", "Music", "Rock"]
                         }
                     }
                 },
                 {
-                    "id": 8,
+                    "id": 7,
                     "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "img": "images/pictures/noble.png",
+
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nobleset",
+                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
+                            "tags": ["Django", "Music", "Rock"]
+                        }
+                    }
+                },
+
+                
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/zing.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -363,7 +580,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Soccer Analytics",
+                            "title": "zing studio",
                             "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
                             "tags": ["AI", "Prediction", "Soccer"]
                         },
@@ -384,47 +601,182 @@
                         }
                     }
                 },
+
                 {
-                    "id": 9,
-                    "categoryId": "category_apps",
-                    "img": "",
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+
                         ],
                         "screenshots": [
 
                         ],
                         "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
                     },
                     "locales": {
                         "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "title": "CRM",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/covai.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Covai Civil Lab",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/prade.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Prade",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/noble.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nobleset",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/zenwell.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Zen Wellness Lounge",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/kpr.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "kpr mill",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/karpagam.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "KCE - Alumni Portal",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
                         }
                     }
                 }
+
+                
+               
             ]
         }
     ]
