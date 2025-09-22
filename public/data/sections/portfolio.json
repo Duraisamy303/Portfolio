@@ -9,7 +9,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -20,27 +19,39 @@
                     "category_apps": "Apps",
                     "category_web": "Web",
                     "category_utilities": "Ecommerce",
-                    "category_admin": "Admin Panel"
+                    "category_admin": "Admin Panel",
+                    "category_figma": "Figma"
 
                 }
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities","category_admin"],
+                "categorize_by": [
+                    "category_apps",
+                    "category_web",
+                    "category_utilities",
+                    "category_admin",
+                    "category_figma"
+                ],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
             "items": [
-                
                 {
                     "id": 1,
                     "categoryId": "category_apps",
                     "img": "images/pictures/livyana.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {
+                                "href": "https://apps.apple.com/us/app/livyana/id1607792556",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-apple"
+                            }
                         ],
                         "screenshots": [
                             "images/pictures/livyana/1.webp",
@@ -50,13 +61,19 @@
                             "images/pictures/livyana/5.webp"
                         ],
                         "screenshotsAspectRatio": "0",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                        "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Livyana",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["React Native", "REST", "Node Js"]
+                            "text": "The Livyana Mobile App extends community access to smartphones, allowing users to join discussions, groups, and forums anytime, anywhere. It delivers real-time push notifications, resource sharing, and caregiver support tools to keep members engaged. All activities are seamlessly synced with the web platform, ensuring a unified experience across devices.",
+                            "tags": [
+                                "React Native",
+                                "REST",
+                                "TypeScript",
+                                "Node Js",
+                                "Styled Components"
+                            ]
                         }
                     }
                 },
@@ -65,11 +82,17 @@
                     "categoryId": "category_apps",
                     "img": "images/pictures/fullfily.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {
+                                "href": "https://play.google.com/store/apps/details?id=com.lightzip.fullfilyNewV&hl=en",
+                                "tooltipString": "see_on_google_play",
+                                "faIcon": "fa-brands fa-google-play"
+                            }
                         ],
                         "screenshots": [
                             "images/pictures/fullfilly/1.webp",
@@ -78,43 +101,19 @@
                             "images/pictures/fullfilly/4.webp",
                             "images/pictures/fullfilly/5.webp"
                         ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Fullfily",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/hdd.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/hdd/1.webp",
-                            "images/pictures/hdd/2.webp",
-                            "images/pictures/hdd/3.webp",
-                            "images/pictures/hdd/4.webp",
-                            "images/pictures/hdd/5.webp"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HDD manager",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "title": "Fulfilly Flyers",
+                            "text": "The Fulfilly Mobile App empowers drivers and customers with on-the-go access to delivery updates and services. Drivers can easily locate parking and charging stations, manage delivery routes, and stay connected in real time. Customers benefit from live tracking, timely notifications, and a smooth, eco-friendly delivery experience, ensuring convenience anytime, anywhere.",
+                            "tags": [
+                                "React Native",
+                                "REST Api",
+                                "Redux",
+                                "Node Js",
+                                "Mongo DB"
+                            ]
                         }
                     }
                 },
@@ -123,11 +122,22 @@
                     "categoryId": "category_apps",
                     "img": "images/pictures/pleat.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {
+                                "href": "https://apps.apple.com/us/app/pleat/id1636818308",
+                                "tooltipString": "see_on_app_store",
+                                "faIcon": "fa-brands fa-apple"
+                            },
+                            {
+                                "href": "https://play.google.com/store/apps/details?id=com.pleat&hl=en",
+                                "tooltipString": "see_on_google_play",
+                                "faIcon": "fa-brands fa-google-play"
+                            }
                         ],
                         "screenshots": [
                             "images/pictures/pleat/1.webp",
@@ -136,26 +146,20 @@
                             "images/pictures/pleat/4.webp",
                             "images/pictures/pleat/5.webp"
                         ],
-                        "screenshotsAspectRatio": "16:9",
+                        "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Pleat",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
+                            "text": "Pleat is a React Native mobile app designed to simplify the traditional saree draping process. Our team of experts pre-pleat and box sarees, making them portable, easy to carry, and hassle-free to drape. The app allows users to explore services, book pre-pleated sarees, and enjoy a seamless experience that blends tradition with modern convenience. With Pleat, achieving the perfect saree look is effortless, elegant, and time-saving.",
+                            "tags": [
+                                "React Native",
+                                "Firebase",
+                                "Dunzo",
+                                "Redux toolkit", 
+                                "Node Js"
+                            ]
                         }
                     }
                 },
@@ -164,15 +168,22 @@
                     "categoryId": "category_apps",
                     "img": "images/pictures/mybuddy.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                         
+                            {
+                                "href": "https://play.google.com/store/apps/details?id=com.mybuddys&hl=en",
+                                "tooltipString": "see_on_google_play",
+                                "faIcon": "fa-brands fa-google-play"
+                            }
                         ],
                         "screenshots": [
                             "images/pictures/mybuddy/1.png",
-                            "images/pictures/mybuddy/2.jpg",
+                            "images/pictures/mybuddy/2.png",
                             "images/pictures/mybuddy/3.jpg",
                             "images/pictures/mybuddy/4.jpg",
                             "images/pictures/mybuddy/5.jpg",
@@ -185,16 +196,64 @@
                             "images/pictures/mybuddy/12.jpg",
                             "images/pictures/mybuddy/13.jpg",
                             "images/pictures/mybuddy/14.jpg"
-
                         ],
-                        "screenshotsAspectRatio": "16:9",
+                        "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "MyBuddy",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "text": "The Mybuddy Mobile App brings an engaging community experience to smartphones, making it easy to connect on the go. Users can explore communities, create “Buds” (posts), and interact with content through likes, comments, and reactions. Designed with React Native, the app delivers a seamless, real-time social experience that keeps users connected anytime, anywhere.",
+                            "tags": [
+                                "Expo",
+                                "Redux",
+                                "Shadcn",
+                                "Node Js"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/hdd.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://apps.apple.com/us/app/hdd-manager/id1596250866",
+                                "tooltipString": "see_on_app_store",
+                                "faIcon": "fa-brands fa-apple"
+                            },
+                            {
+                                "href": "https://play.google.com/store/apps/details?id=com.brownbutton.hdd&hl=en",
+                                "tooltipString": "see_on_google_play",
+                                "faIcon": "fa-brands fa-google-play"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/hdd/1.webp",
+                            "images/pictures/hdd/2.webp",
+                            "images/pictures/hdd/3.webp",
+                            "images/pictures/hdd/4.webp",
+                            "images/pictures/hdd/5.webp"
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HDD manager",
+                            "text": "Hdd Manager Mobile is a React Native app designed to help users manage their hard disk storage with ease. The app allows you to monitor usage, track available space, and organize files efficiently. It also provides secure backup and restore features, ensuring your data is always safe and easily recoverable. With a clean and user-friendly interface, Hard Disk Mobile simplifies storage management right from your smartphone.",
+                            "tags": [
+                               "Native Base",
+                                "Zustand",
+                                "Node Js"
+                            ]
                         }
                     }
                 },
@@ -203,39 +262,45 @@
                     "categoryId": "category_apps",
                     "img": "images/pictures/kitmobile.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {
+                                "href": " https://irepute.co.in/karpagamapp/Alumni-12_08_25.apk",
+                                "tooltipString": "download_apk",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                            
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            "images/pictures/alumni/1.jpeg",
+                            "images/pictures/alumni/2.jpeg",
+                            "images/pictures/alumni/3.jpeg",
+                            "images/pictures/alumni/7.png",
+                            "images/pictures/alumni/9.png",
+                            "images/pictures/alumni/10.png",
+                            "images/pictures/alumni/4.png",
+                            "images/pictures/alumni/5.png",
+                            "images/pictures/alumni/6.png",
+                            "images/pictures/alumni/8.png"
+
+
                         ],
-                        "screenshotsAspectRatio": "16:9",
+                        "screenshotsAspectRatio": "1",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Job Board",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
+                            "text": "JobBoard Mobile connects students, alumni, and college management in one platform. Alumni can share job opportunities with students, while admin offices handle queries via help desk. The app also supports events, posts, job boards, and member directories. Built with React Native, it enables a seamless on-the-go campus community experience.",
+                            "tags": [
+                                "React Native Paper",
+                                "Organization",
+                                "Notes"
+                            ]
                         }
                     }
                 },
@@ -244,11 +309,18 @@
                     "categoryId": "category_apps",
                     "img": "images/pictures/padane.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {
+                                "href": "http://irepute.co.in/app/Padane.apk",
+                                "tooltipString": "download_apk",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                            
                         ],
                         "screenshots": [
                             "images/pictures/padane/1.jpeg",
@@ -260,54 +332,262 @@
                             "images/pictures/padane/7.jpeg",
                             "images/pictures/padane/8.jpeg",
                             "images/pictures/padane/9.jpeg"
-
                         ],
-                        "screenshotsAspectRatio": "20",
+                        "screenshotsAspectRatio": "1",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Padane",
                             "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
+                            "tags": [
+                                "React Native",
+                                "GraphQL",
+                                "React Navigation"
+                            ]
                         }
                     }
                 },
 
 
+
                 {
                     "id": 4,
                     "categoryId": "category_web",
-                    "img": "images/pictures/tirumalai.png",
+                    "img": "images/pictures/zenwell.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {
+                                "href": "https://zenwellnesslounge.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Tirumalai",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "Zen Wellness Lounge",
+                            "text": "Zen Wellness Lounge Web App lets users join online and offline yoga and meditation sessions. It offers free and paid programs, story-sharing sessions, and alumni mentorship. Paid sessions include a smooth ticket booking flow for hassle-free registration. Built with Next.js, ShadCN UI, and Redux Toolkit, it promotes holistic wellness anytime, anywhere.",
+                            "tags": [
+                                "Next.js",
+                                "TypeScript",
+                                "React Context API"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/stj.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://sreethangamjewellery.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sree Thangam Jewellery",
+                            "text": "Sree Thangam Jewellery Web App allows customers to explore a wide range of jewellery collections, view product details, and place orders online. It provides a seamless browsing and shopping experience with easy navigation and secure checkout. Built with modern web technologies, the platform ensures an elegant and user-friendly interface.",
+                            "tags": [
+                                "React.js",
+                                "Redux Toolkit",
+                                "Tailwind CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/noble.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://noblesets.irepute.co.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nobleset",
+                            "text": "Noble Set Web App is an e-commerce platform where customers can explore various product categories, browse collections, add items to abundant carts, and complete secure checkout. It also supports drop shipping imports and provides a seamless shopping experience with order tracking and responsive design.",
+                            "tags": [
+                                "Next.js",
+                                "Shadcn/UI",
+                                "Zustand",
+                                "GraphQL",
+                                "JWT / OAuth"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/prade.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://prade.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Prade",
+                            "text": "Prade Jewellery Web App is an e-commerce platform where customers can explore various product categories like jewellery, rings, and bracelets, add items to the cart, and complete secure checkout. Users can track orders and enjoy a seamless shopping experience powered by modern web technologies.",
+                            "tags": [
+                                "React.js",
+                                "Framer Motion",
+                                "Material-UI",
+                                "Tailwind CSS",
+                                "GraphQL",
+                                "JWT / OAuth"
+
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/fullfily.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.fullfily.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fulfilly",
+                            "text": "The Fulfilly Web App enables businesses and customers to access eco-friendly delivery solutions powered by electric vehicles. It offers seamless services for parking and charging, logistics, warehousing, last-mile commute, and intra-city deliveries. Built for scalability and convenience, the web platform ensures uninterrupted service while promoting sustainability.",
+                            "tags": [
+                                "React.js",
+                                "Context API",
+                                "TypeScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/livyana.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://livyana.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                          
+                        ],
+                        "screenshotsAspectRatio": "0",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Livyana",
+                            "text": "The Livyana Web App brings together patients, caregivers, healthcare professionals, and advocacy groups in a secure and customizable community hub. It enables collaboration through forums, groups, and discussions while providing an analytics dashboard to measure engagement. With role-based access and a user-friendly interface, organizations can create meaningful spaces tailored to their needs.",
+                            "tags": [
+                                "React.js",
+                                "TypeScript",
+                                "Redux"
+                            ]
+                        }
+                    }
+                },
+               
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/Gyanodhayam.png",
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {
+                        "bg": "#007396",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://gyanodhayam.org/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Gyanodhayam",
+                            "text": "The Gyanodhayam Education Trust Web App shares knowledge on yoga, meditation, art, science, and spirituality to guide individuals toward self-realization and enlightenment. It provides access to classes, resources, and teachings that help people lead a disciplined and noble lifestyle. The platform fosters spiritual growth while encouraging users to balance societal duties with inner awakening.",
+                            "tags": [
+                                "React.js",
+                                "REST Api",
+                                "JavaScript",
+                                "React Query",
+                                "JWT / OAuth"
+                            ]
                         }
                     }
                 },
@@ -316,467 +596,586 @@
                     "categoryId": "category_web",
                     "img": "images/pictures/bks.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {
+                                "href": "https://bkstextiles.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "BKS",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "BKS Fabrics",
+                            "text": "BKS Fabrics is a leading textile solutions provider with vertically integrated facilities, from yarn dyeing to finishing. We deliver premium woven fabrics, hospitality linens, and stylish workwear. Our modern South India plant uses green energy and advanced technologies for efficiency and quality. With continuous innovation, we remain a one-stop destination for evolving fashion and textile needs.",
+                            "tags": [
+                               "React.js",
+                                "Tailwind CSS",
+                                "Vercel"
+                            ]
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "categoryId": "category_web",
-                    "img": "images/pictures/stj.png",
+                    "img": "images/pictures/tirumalai.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {
+                                "href": "https://tirumalaitextiles.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Sree Thangam Jewellery",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "Tirumalai",
+                            "text": "Tirumalai Textiles is dedicated to sustainable fashion, embracing eco-friendly practices and recyclability. With prestigious GRS certification, we ensure our yarn production meets the highest global standards. We recycle garment waste to manufacture premium textile yarns with minimal environmental impact. Our mission is to deliver exceptional quality yarns tailored for both domestic and international markets.",
+                            "tags": [
+                                "React.js",
+                                "SCSS",
+                                "Vercel"
+                            ]
                         }
                     }
                 },
-
-                {
-                    "id": 5,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/zenwell.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Zen Wellness Lounge",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        }
-                    }
-                },
-                
                 {
                     "id": 9,
                     "categoryId": "category_web",
                     "img": "images/pictures/kpr.png",
-
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
+                            {
+                                "href": "https://www.kprmilllimited.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
                         "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshots": []
                     },
                     "locales": {
                         "en": {
                             "title": "kpr mill",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/karpagam.png",
-
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "KIT",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/Gyanodhayam.png",
-
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Gyanodhayam",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                },
-               
-                {
-                    "id": 7,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/prade.png",
-
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Prade",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "text": "KPR Mill is one of the largest vertically integrated, publicly listed textile companies with over 40 years of excellence. Our diversified business spans yarn, fabrics, garments, and white crystal sugar. We produce a wide range of premium textiles including knitted apparel, fabrics, and multiple yarn varieties. With global reach, we are committed to superior quality, timely delivery, and sustainable growth.",
+                            "tags": [
+                                "React.js",
+                                "Tailwind CSS",
+                                "Framer Motion"
+                            ]
                         }
                     }
                 },
                 
+
+
+
+           
                 {
                     "id": 7,
                     "categoryId": "category_utilities",
                     "img": "images/pictures/stj.png",
-
                     "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {
+                                "href": "https://sreethangamjewellery.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
+                        "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Sree Thangam Jewellery",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "text": "The STJ enables role-based management of products, orders, and customer interactions. Admins can update collections, track sales, and handle inventory efficiently. It ensures smooth business operations while providing insights for better decision-making. The panel simplifies overall store management with real-time control and reporting.",
+                            "tags": [
+                                "Next.js",
+                                "Redux Toolkit",
+                                "Ant Design",
+                                "JavaScript"
+                            ]
                         }
                     }
                 },
+              
                 {
                     "id": 7,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/noble.png",
-
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/covai.png",
                     "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {
+                                "href": "https://nrtc.covaicivillab.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
+                        "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Nobleset",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "title": "Covai Civil Lab",
+                            "text": "Covai Civil Lab Pvt. Ltd. is a NABL-accredited premier testing facility with 40+ years of expertise in material testing and structural evaluation. We follow BIS standards to ensure uncompromised quality and safety. Our services span from material testing to stability certifications, supporting infrastructure, industrial, and academic projects. Trusted nationwide, we deliver excellence for every build.",
+                            "tags": [
+                                "Next.js",
+                                "React Query",
+                                "Ant Design",
+                                "JavaScript"
+                            ]
                         }
                     }
                 },
 
-                
-                {
-                    "id": 8,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/zing.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "zing studio",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
 
                 {
                     "id": 8,
                     "categoryId": "category_admin",
                     "img": "images/pictures/repute.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://brandhunt.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "CRM",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "text": "Our CRM system empowers businesses to manage customer relationships efficiently with lead tracking, sales pipeline management, and automated follow-ups. Built for scalability, it offers role-based dashboards, analytics, and real-time reporting. With seamless integrations and user-friendly design, it enhances collaboration across teams. Designed to improve customer engagement and boost sales performance.",
+                            "tags": [
+                                "Next.js",
+                                "Context API",
+                                "REST Api",
+                                "Tailwind CSS"
+                            ]
                         }
                     }
                 },
+               
                 {
                     "id": 8,
-                    "categoryId": "category_admin",
-                    "img": "images/pictures/covai.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Covai Civil Lab",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        }
-                    }
-                },
-
-                {
-                    "id": 8,
-                    "categoryId": "category_admin",
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/prade.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://prade.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Prade",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "text": "The Admin Panel enables complete management of products, orders, categories, attributes, and stock. It supports discounts, coupons, refunds, and media storage via AWS S3. Admins have full control over e-commerce operations, ensuring smooth inventory management and sales tracking.",
+                            "tags": [
+                                "Next.js",
+                                "Context API",
+                                "GraphQL",
+                                "Tailwind CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/fullfily.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.fullfily.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                            
+                        ],
+                        "screenshots": [
+                          
+                        ],
+                        "screenshotsAspectRatio": "0",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fulfilly",
+                            "text": "The Fulfilly Admin Panel provides a powerful dashboard for managing day-to-day operations. Admins can track drivers’ live locations, monitor daily handled orders, and manage outsourcing requests. The panel also supports full control over drivers, vehicles, and orders to ensure smooth logistics. With real-time visibility and detailed insights, Fulfilly simplifies fleet management and optimizes delivery performance.",
+                            "tags": [
+                                "React.js",
+                                "Redux thunk",
+                                "REST Api",
+                                "Tailwind CSS"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 8,
-                    "categoryId": "category_admin",
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/noble.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://noblesetsadmn.irepute.co.in/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Nobleset",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "text": "The Admin Panel allows admins to manage products, orders, categories, and stock while overseeing staff members and their roles. It includes tools for handling discounts, refunds, coupons, and generating detailed reports. With features like abundant cart management and drop shipping import, the panel ensures efficient business operations and analytics.",
+                            "tags": [
+                                "Next.js",
+                                "Context API",
+                                "GraphQL",
+                                "Tailwind CSS"
+                            ]
                         }
                     }
                 },
-
                 {
                     "id": 8,
                     "categoryId": "category_admin",
                     "img": "images/pictures/zenwell.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://filez.zenwellnesslounge.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                            
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Zen Wellness Lounge",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "text": "The Admin Panel provides role-based access for admins, students, and alumni. Admins can manage sessions, track participants, and handle ticket bookings for paid programs. It ensures smooth coordination of wellness activities and mentorship initiatives. The intuitive panel simplifies session management and supports the lounge’s holistic wellness mission.",
+                            "tags": [
+                                "Next.js",
+                                "Redux thunk",
+                                "REST Api",
+                                "Tailwind CSS"
+                            ]
                         }
                     }
                 },
-
                 {
                     "id": 8,
                     "categoryId": "category_admin",
                     "img": "images/pictures/kpr.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://kpr-admin.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "kpr mill",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "text": "The KPR Mill Admin Panel streamlines operations across yarn, fabric, garment, and sugar divisions with centralized management. It enables real-time tracking of production, inventory, and quality control to ensure efficiency. Role-based access supports admins, managers, and staff for smooth collaboration. With integrated reporting and analytics, it empowers data-driven decision-making across the enterprise.",
+                            "tags": [
+                                "Next.js",
+                                "Redux thunk",
+                                "REST Api",
+                                "Tailwind CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_admin",
+                    "img": "images/pictures/kitmobile.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://kit-alumni.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Alumni Portal",
+                            "text": "The JobBoard Admin panel provides role-based access for admins, faculty, and students. Admins manage users and postings, faculty guide students, and students explore opportunities. It ensures smooth collaboration, event participation, and alumni networking. Built with React, Node.js, and MongoDB, the web app powers a secure, scalable platform.",
+                            "tags": [
+                                "Next.js",
+                                "Redux thunk",
+                                "REST Api",
+                                "Tailwind CSS"
+                            ]
                         }
                     }
                 },
 
+
+
+
                 {
-                    "id": 8,
-                    "categoryId": "category_admin",
-                    "img": "images/pictures/karpagam.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "id": 7,
+                    "categoryId": "category_figma",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
                     "preview": {
                         "links": [
-
+                            {
+                                "href": "https://www.figma.com/design/utPd3PSTN7s5zLc4QhdHqf/Temple-Management?node-id=0-1&t=rHPFLX48TwMBD2TJ-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshots": [
-
-                        ],
+                        "screenshots": [],
                         "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "KCE - Alumni Portal",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "title": "Temple Management",
+                            "text": "The Temple Management System is a comprehensive digital platform designed to streamline daily temple operations and community services. From managing temples, sevas, prasada distribution, donations, and events to handling suppliers, payroll, and inventory, the system centralizes all workflows in one place. With role-based access for admins, priests, staff, and devotees, it ensures secure and efficient management. Integrated reports and analytics provide complete visibility, supporting both spiritual and operational excellence.",
+                            "tags": [
+                                "Figma",
+                                "Auto Layout",
+                                "Interactive Prototypes",
+                                "Plugins"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_figma",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": " https://www.figma.com/design/WYJwcIFKZX9pPcvyqBJKxC/Project-Management?node-id=0-1&t=Q8tQ3VjYd4XGrp5x-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Project Management",
+                            "text": "The Project Management System is a smart solution designed to simplify workplace collaboration and productivity. With modules for projects, calendars, employee management, vacations, and real-time messaging, it streamlines communication and task tracking. The Info Portal and Support features ensure employees stay informed and connected, while the dashboard provides a clear overview of progress and performance. Built for efficiency, it enables organizations to manage resources, schedules, and teams with ease.",
+                            "tags": [
+                                "Figma",
+                                "Auto Layout",
+                                "Interactive Prototypes",
+                                "Plugins"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_figma",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/design/z7Sn2s1bs3ZmSUWunyWqED/REAL-ESTATE?node-id=0-1&t=1PpCC9uqtExiPEJM-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Real Estate",
+                            "text": "The Real Estate Admin Panel is a comprehensive property management solution with role-based access for Admin, Developer, Seller, Buyer, and Agent. Admins oversee the entire ecosystem, developers manage projects, sellers list properties, buyers explore and purchase, while agents connect clients seamlessly. With features for property listings, transactions, user management, and analytics, the platform ensures transparency, efficiency, and smooth real estate operations.",
+                            "tags": [
+                                "Figma",
+                                "Auto Layout",
+                                "Interactive Prototypes",
+                                "Plugins"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_figma",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/design/JkTta07yZpZJFZmye9BdBe/BDM?node-id=0-1&t=RZyjnWxJXNsXdZEz-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CRM",
+                            "text": "The CRM system is designed with role-based access for Owner, BDM, BDE, DM, and TM, ensuring smooth collaboration and accountability. Owners get full visibility with reports and analytics, BDMs oversee business growth, BDEs manage leads and clients, while DMs and TMs handle tasks and team coordination. The platform streamlines lead management, client interactions, performance tracking, and sales pipelines, making it an all-in-one solution for business development.",
+                            "tags": [
+                                "Figma",
+                                "Auto Layout",
+                                "Interactive Prototypes",
+                                "Plugins"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_figma",
+                    "img": "images/pictures/repute.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#7671AA",
+                        "fill": "#EEEEEE"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/design/0rDVtBzTlpB9IIOkel0Edl/Alumini?node-id=0-1&t=qQyqs9lg5zQRvrkm-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Job Board",
+                            "text": "The Job Board Mobile App connects college students, alumni, and management on a single platform. Students can explore job opportunities, alumni can post openings from their companies, and management can engage through announcements and events. With features like job postings, help desk, event creation, member directory, and real-time chat, the app fosters career growth, networking, and smooth communication within the campus community.",
+                            "tags": [
+                                "Figma",
+                                "Auto Layout",
+                                "Interactive Prototypes",
+                                "Plugins"
+                            ]
                         }
                     }
                 }
 
-                
-               
             ]
         }
     ]

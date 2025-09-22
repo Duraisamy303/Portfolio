@@ -3,7 +3,7 @@
 div.category-filter {
     display: inline-flex;
     width: 100%;
-    max-width: 800px;
+    max-width: 840px;
     margin: 0 auto;
     @include media-breakpoint-down(xxl) {
         max-width: 800px;

@@ -217,7 +217,7 @@ jsonUtils.update(jProfilePath, {
     name: "John Doe",
 
     profilePictureUrl: "images/pictures/pfp.png",
-    resumePdfUrl: "",
+    resumePdfUrl: "file/Resume.pdf",
 
     statusCircleVisible: true,
     statusCircleVariant: "available",
